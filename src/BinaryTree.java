@@ -1,7 +1,3 @@
-/**
- * The class `Node` represents a node in a binary tree with integer data and
- * references to left and right child nodes.
- */
 class Node {
     int data;
     Node left;
