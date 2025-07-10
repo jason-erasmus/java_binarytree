@@ -61,8 +61,8 @@ public class BinaryTree {
         myTree.addData(70);
         myTree.addData(40);
 
-        System.out.println("Is the number 10 inth tree? " + myTree.findData(10));
-        System.out.println("Is the number 70 inth tree? " + myTree.findData(70));
-        System.out.println("Is the number 90 inth tree? " + myTree.findData(90));
+        System.out.println("Is the number 10 in the tree? " + myTree.findData(10));
+        System.out.println("Is the number 70 in the tree? " + myTree.findData(70));
+        System.out.println("Is the number 90 in the tree? " + myTree.findData(90));
     }
 }

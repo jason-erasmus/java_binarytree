@@ -1,18 +1,23 @@
-## Getting Started
+# Bianry Tree
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Created a Binary Tree in Java as an exercise to get familiar with Data Structures and the Java language.
 
-## Folder Structure
+The program will load in a pre determined set of data and output a search query.
 
-The workspace contains two folders by default, where:
+I am hoping to add user input functionality as well as dispalying the full data set of the tree.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Installation
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Download and run the build script
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+For Windows:
 
-## Dependency Management
+```bash
+.\build.ps1
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+For MacOS/Linux:
+
+```bash
+.\build.sh
+```

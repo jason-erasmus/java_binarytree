@@ -2,7 +2,7 @@
 
 set -e
 
-if ! command -v docker &> /dev/null/; then
+if ! command -v docker &> /dev/null; then
     echo "Docker is not installed, Please install Docker and try again."
     exit 1
 fi
@@ -19,7 +19,7 @@ git clone $REPO_URL $CLONE_DIR
 cd $CLONE_DIR
 
 echo "Building Docker image..."
-docker docker build -t binarytree-app .
+docker build -t binarytree-app .
 
 echo "Launching Java Binary Tree..."
 docker docker run --rm binarytree-app
